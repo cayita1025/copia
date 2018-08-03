@@ -17,21 +17,21 @@ export class ImagenPipe implements PipeTransform {
     if  ( img.indexOf('https') >= 0 ) {
       return img;
     }
-
+///// NOTA FIJARSE BIEN EN LAS RUTAS PUESTAS
     switch( tipo ) {
       
       case 'usuario':
-         url += '/usuarios' + img;
+         url += '/usuarios/' + img;
       break;
         
 
       case 'medico':
-         url += '/medicos' + img;
+         url += '/medicos/' + img;
       break;
 
 
       case 'hospital':
-         url += '/hospitales' + img;
+         url += '/hospitales/' + img;
       break;
 
       default:
