@@ -1,12 +1,12 @@
+// Guards
+export { LoginGuardGuard } from './guards/login-guard.guard';
+export { AdmiGuard } from './guards/admi.guard';
 
 
 // Matenimiento
 export { MedicoService } from './medico/medico.service';
 export { HospitalService } from './hospital/hospital.service';
 export { UsuarioService } from './usuario/usuario.service';
-
-
-export { LoginGuardGuard } from './guards/login-guard.guard';
 
 
 export { SubirArchivoService } from './subir-archivo/subir-archivo.service';
